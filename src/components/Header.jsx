@@ -23,7 +23,7 @@ const handleSearch=(e)=>{
         <div className="collapse navbar-collapse" id="menu">
           <ul className="navbar-nav me-auto mb-2 mb-md-0" >
             <li className="nav-item">
-              <NavLink to="/" className="nav-link">Home</NavLink>
+              <NavLink to="/Movie-Platform-Renuga" className="nav-link">Home</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/movies/top">Toprated</NavLink>
