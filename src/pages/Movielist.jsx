@@ -11,7 +11,7 @@ export const Movielist = ({title,apiPath}) => {
   return (
     <div>
       <main className="container">
-        {title =="your guide to great movies"?(<div className="bg-body-tertiary p-5 border mb-5">
+        {title === "Movie-Platform"?(<div className="bg-body-tertiary p-5 border mb-5">
           <h3 className="text-primary">Welcome To Movie Platform</h3>
           <p className="lead">Discover movies that match your interests and emotions with personalized suggestions, curated collections, and instant search. Your ultimate guide to finding great films</p>
           <button className="btn btn-primary" onClick={()=>{navigator("/movies/upcoming")}}>Upcoming Movies</button>
