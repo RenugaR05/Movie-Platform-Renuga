@@ -5,7 +5,7 @@ const AllRoutes = () => {
   return( 
   <>
    <Routes>
-     <Route  path="/" element={<Movielist title="your guide to great movies" apiPath="movie/now_playing"/>}/>
+     <Route  path="/Movie-Platform-Renuga" element={<Movielist title="your guide to great movies" apiPath="movie/now_playing"/>}/>
      <Route  path="movies/popular" element={<Movielist title="popular movies" apiPath="movie/popular"/>}/>
      <Route  path="movies/top" element={<Movielist title="top rated movies" apiPath="movie/top_rated"/>}/>
      <Route  path="movies/upcoming" element={<Movielist title="upcoming movies" apiPath="movie/upcoming"/>}/>
